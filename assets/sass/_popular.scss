@@ -1,0 +1,61 @@
+.popular {
+  padding-top: 9rem;
+  padding-bottom: 8rem;
+  background-color: $bg-light-yellow;
+
+  &-title {
+    color: $orange;
+    font-size: 7.5rem;
+    font-family: "Archivo", sans-serif;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 13rem;
+  }
+
+  &-box {
+    width: calc(33.3333% - 3rem);
+    margin-right: 3rem;
+    background-color: $white;
+    border-radius: 0.5rem;
+    padding-top: 3rem;
+    padding-bottom: 2.5rem;
+    text-align: center;
+  }
+
+  &-heading {
+    margin-bottom: 3.5rem;
+    color: $orange;
+    font-size: 3.3rem;
+    font-family: "Archivo", sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+
+  &-price {
+    font-size: 3.3rem;
+    color: $orange;
+    font-weight: bold;
+    font-family: "Archivo", sans-serif;
+    margin-top: 3.8rem;
+    margin-bottom: 2rem;
+  }
+
+  &-desc {
+    font-size: 2rem;
+    color: $orange;
+    font-family: "Montserrat", sans-serif;
+    margin-bottom: 3rem;
+  }
+
+  &-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  }
+  @media screen and (max-width: 1023px) {
+    &-box {
+      width: calc(50% - 3rem);
+      margin-bottom: 3rem;
+    }
+  }
+}

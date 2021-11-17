@@ -1,0 +1,87 @@
+.our {
+  background-color: $bg-light-yellow;
+  padding-top: 9rem;
+  padding-bottom: 14rem;
+  position: relative;
+
+  &-1 {
+    position: absolute;
+    right: 0;
+  }
+
+  &-2 {
+    position: absolute;
+    bottom: 13rem;
+    right: 2rem;
+  }
+
+  &-3 {
+    position: absolute;
+    top: 50rem;
+    left: -3rem;
+  }
+
+  &-4 {
+    position: absolute;
+    bottom: 0;
+    right: 65rem;
+  }
+
+  &-5 {
+    position: absolute;
+    bottom: 0;
+    right: 112rem;
+  }
+
+  &-6 {
+    position: absolute;
+    left: 15rem;
+  }
+
+  &-center {
+    text-align: center;
+    margin-bottom: 6rem;
+  }
+
+  &-title {
+    font-size: 6rem;
+    color: $orange;
+    font-weight: bold;
+    font-family: "Archivo", sans-serif;
+    margin-bottom: 4rem;
+  }
+
+  &-desc {
+    color: $orange;
+    font-size: 2.5rem;
+    font-weight: 400;
+    width: 75rem;
+    margin: 0 auto;
+    font-family: "Montserrat", sans-serif;
+  }
+
+  &-box {
+    text-align: center;
+    width: calc(33.3333% - 3rem);
+    margin-right: 3rem;
+
+    img {
+      border-radius: 50%;
+      margin-bottom: 1.5rem;
+    }
+
+    h3 {
+      font-size: 3rem;
+      color: $orange;
+      font-family: "Archivo", sans-serif;
+      margin-bottom: 1rem;
+    }
+
+    p {
+      font-size: 2.5rem;
+      color: $orange;
+      font-family: "Nunito", sans-serif;
+      font-weight: 500;
+    }
+  }
+}

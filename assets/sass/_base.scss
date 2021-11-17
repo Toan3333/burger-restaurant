@@ -1,0 +1,33 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: inherit;
+  text-decoration: none;
+  list-style: none;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 1280px;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.width-fluid {
+  width: 100%;
+  overflow: hidden;
+}
+
+.box-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box-container-center {
+  margin-right: -3rem;
+}
